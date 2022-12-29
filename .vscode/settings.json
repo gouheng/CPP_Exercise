@@ -1,0 +1,21 @@
+// {
+//     "code-runner.executorMap": {
+//         "c": "cd $dir && gcc $fileName -o D:\\Exercise\\CPP_Exercise\\debugger\\$fileNameWithoutExt && D:\\Exercise\\CPP_Exercise\\debugger\\$fileNameWithoutExt",
+//         "cpp": "cd $dir && gcc $fileName -o D:\\Exercise\\CPP_Exercise\\debugger\\$fileNameWithoutExt && D:\\Exercise\\CPP_Exercise\\debugger\\$fileNameWithoutExt"
+//     }
+// }
+{
+    "code-runner.executorMap": {
+        "cpp": " cd $dir && g++ $fileName -D LOCAL -o        .\\debugger\\$fileNameWithoutExt.exe && .\\debugger\\$fileNameWithoutExt.exe",
+    },
+    "files.associations": {
+        "ostream": "cpp",
+        "random": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "ios": "cpp",
+        "csignal": "cpp"
+    },
+    "doxdocgen.generic.authorName": "hen",
+    "doxdocgen.generic.authorEmail": "1924801023@qq.com",
+}
