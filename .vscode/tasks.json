@@ -20,7 +20,7 @@
         "-g",
         "${file}",
         "-o",
-        "${fileDirname}\\${.exe}\\${fileBasenameNoExtension}.exe"
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
       ],
       "command": "D:\\mingw64\\bin\\g++.exe",
       "group": {
