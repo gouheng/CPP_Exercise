@@ -8,3 +8,9 @@
  * @copyright Copyright (c) 2023
  *
  */
+#if !defined(MACRO)
+#define MACRO
+
+
+
+#endif // MACRO
